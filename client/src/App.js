@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Home from "./components/Home";
 import Resume from "./components/Resume";
 import Form from "./components/Form";
 import Card from "./components/Card";
@@ -13,15 +14,24 @@ class App extends Component {
     return (
       <Router>
         <>
-          <Link to="/resume">Resume</Link>
-          <Link to="/card">Card</Link>
-          <Link to="/">Form</Link>
+          <Link to="/resume">
+            <button className="app__button"> Resume </button>
+          </Link>
+          <Link className="app__button" to="/card">
+            <button className="app__button"> Card </button>
+          </Link>
+          <Link className="app__button" to="/createnew">
+            <button className="app__button"> Createnew </button>
+          </Link>
         </>
         <Switch>
+          <Route path="/">
+            <Home />
+          </Route>
           <Route path="/resume">
             <Resume />
           </Route>
-          <Route path="/" exact>
+          <Route path="/createnew" exact>
             <Form />
           </Route>
           <Route path="/card">

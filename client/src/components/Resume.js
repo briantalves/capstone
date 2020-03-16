@@ -13,30 +13,18 @@ export default function Example() {
     <Accordion>
       <AccordionItem>
         <AccordionItemHeading>
-          <AccordionItemButton>
-            What harsh truths do you prefer to ignore?
-          </AccordionItemButton>
+          <AccordionItemButton>Hellp</AccordionItemButton>
         </AccordionItemHeading>
         <AccordionItemPanel>
-          <p>
-            Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat
-            occaecat ut occaecat consequat est minim minim esse tempor laborum
-            consequat esse adipisicing eu reprehenderit enim.
-          </p>
+          <p>I am here 2 stay </p>
         </AccordionItemPanel>
       </AccordionItem>
       <AccordionItem>
         <AccordionItemHeading>
-          <AccordionItemButton>
-            Is free will real or just an illusion?
-          </AccordionItemButton>
+          <AccordionItemButton>Do hotdogs have opinions?</AccordionItemButton>
         </AccordionItemHeading>
         <AccordionItemPanel>
-          <p>
-            In ad velit in ex nostrud dolore cupidatat consectetur ea in ut
-            nostrud velit in irure cillum tempor laboris sed adipisicing eu esse
-            duis nulla non.
-          </p>
+          <p>A resounding yes, from the people.</p>
         </AccordionItemPanel>
       </AccordionItem>
     </Accordion>
