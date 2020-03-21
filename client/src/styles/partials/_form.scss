@@ -1,0 +1,91 @@
+.form__all {
+  display: flex;
+  flex-direction: column;
+}
+.form__header {
+  display: flex;
+  background: rgba(76, 150, 215, 0.48);
+  height: 48px;
+}
+.form__headertitle {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  color: #1761a0;
+}
+.form__textbox {
+  height: 39px;
+  justify-content: center;
+  width: 80%;
+  border: 1px solid #1761a0;
+}
+.form__input {
+  height: 39px;
+  width: 80%;
+  border: 1px solid #1761a0;
+}
+.form__name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form__phone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form__email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form__profession {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form__linkedIn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form__github {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form__generate {
+  display: flex;
+  justify-content: center;
+  padding-top: 3px;
+}
+.form__button {
+  height: 34px;
+  border-radius: 20px;
+  background: linear-gradient(181.68deg, #4c96d7 49.96%, #8dcaff 94.7%);
+  color: whitesmoke;
+}
+
+.form__titles {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  margin: 8px;
+}
+.form__number {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 10px;
+  margin: 5px;
+}

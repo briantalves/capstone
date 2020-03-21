@@ -2,7 +2,8 @@ import React from "react";
 import Logo from "../assets/logo/QRcard.png";
 const QRCode = require("qrcode.react");
 
-export default function Example() {
+export default function Example(props) {
+  console.log(props);
   return (
     <div className="card__all">
       <div className="card__card">
@@ -16,9 +17,9 @@ export default function Example() {
         </div>
         <div className="card__tqr">
           <div className="card__text">
-            <div className="card__name">NAME</div>
-            <div className="card__phone">PHONE</div>
-            <div className="card__jobtitle">JOB TITLE</div>
+            <div className="card__name">{props.newMember.name}</div>
+            <div className="card__phone">{props.newMember.phone}</div>
+            <div className="card__jobtitle">{props.newMember.profession}</div>
           </div>
           <div className="card__qrcode">
             <QRCode
