@@ -1,0 +1,76 @@
+.buttons__all {
+  display: flex;
+  height: 588px;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-items: center;
+  //   flex-direction: column;
+}
+.buttons__header {
+  display: flex;
+  background: rgba(76, 150, 215, 0.48);
+  height: 48px;
+}
+.buttons__headertitle {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  color: #1761a0;
+}
+.buttons__one {
+  display: flex;
+  flex-direction: row;
+  max-height: 132px;
+  width: 300px;
+  flex-basis: 100%;
+  justify-content: space-between;
+}
+.buttons__pics {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 50%;
+  justify-content: center;
+  max-height: 132px;
+}
+.buttons__icon {
+  width: 132px;
+  height: 116px;
+  //   flex-basis: 50%;
+}
+.buttons__two {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 100%;
+  max-height: 132px;
+}
+.buttons__both {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 400px;
+}
+.buttons__titles {
+  text-align: center;
+  display: flex;
+  flex-basis: 100%;
+  max-height: 60px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  color: #1761a0;
+}
+.buttons__title1 {
+  flex-basis: 50%;
+}
+.buttons__title2 {
+  flex-basis: 50%;
+}

@@ -6,6 +6,9 @@ import Card from "./components/Card";
 import uuid from "uuid";
 import axios from "axios";
 import Footer from "./components/Footer";
+import Brian from "./components/Brian";
+import Buttons from "./components/Buttons";
+import Example from "./components/Example";
 import {
   BrowserRouter as Router,
   Switch,
@@ -81,6 +84,15 @@ class App extends Component {
           </Route>
           <Route path="/resume">
             <Resume />
+          </Route>
+          <Route path="/example">
+            <Example />
+          </Route>
+          <Route path="/buttons">
+            <Buttons />
+          </Route>
+          <Route path="/examplecard">
+            <Brian />
           </Route>
           <Route
             path="/createnew"

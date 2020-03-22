@@ -1,0 +1,17 @@
+.brian__header {
+  display: flex;
+  background: rgba(76, 150, 215, 0.48);
+  height: 48px;
+}
+.brian__headertitle {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  color: #1761a0;
+}

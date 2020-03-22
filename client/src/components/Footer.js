@@ -21,7 +21,7 @@ export default function Footer(props) {
             </Link>
           </div>
           <div className="footer__example">
-            <Link to="/example">
+            <Link to="/examplecard">
               <img className="footer__icon" alt="examplepic" src={Example} />
             </Link>
           </div>

@@ -1,32 +1,53 @@
 import React from "react";
+
 import {
-  Accordion,
+  AccordionComponent,
+  AccordionItemsDirective,
+  AccordionItemDirective
+} from "@syncfusion/ej2-react-navigations";
+Accordion,
   AccordionItem,
   AccordionItemHeading,
   AccordionItemButton,
-  AccordionItemPanel
-} from "react-accessible-accordion";
-import "react-accessible-accordion/dist/fancy-example.css";
+  AccordionItemPanel;
 
-export default function Example() {
-  return (
-    <Accordion>
-      <AccordionItem>
-        <AccordionItemHeading>
-          <AccordionItemButton>Hellp</AccordionItemButton>
-        </AccordionItemHeading>
-        <AccordionItemPanel>
-          <p>I am here 2 stay </p>
-        </AccordionItemPanel>
-      </AccordionItem>
-      <AccordionItem>
-        <AccordionItemHeading>
-          <AccordionItemButton>Do hotdogs have opinions?</AccordionItemButton>
-        </AccordionItemHeading>
-        <AccordionItemPanel>
-          <p>A resounding yes, from the people.</p>
-        </AccordionItemPanel>
-      </AccordionItem>
-    </Accordion>
-  );
+class ReactApp extends Component {
+  render() {
+    return (
+      <>
+        <div className="resume__header">
+          <div className="resume__headertitle">Resume</div>
+        </div>
+        <Accordion>
+          <AccordionItem>
+            <AccordionItemHeading className="resume__two">
+              <AccordionItemButton>
+                <span className="resume__one">Experience 1</span>
+              </AccordionItemButton>
+            </AccordionItemHeading>
+
+            <AccordionItemPanel>
+              <p>Vancouver Whitecaps </p>
+            </AccordionItemPanel>
+            <AccordionItem>
+              <AccordionItemButton>Experience 2</AccordionItemButton>
+            </AccordionItem>
+            <AccordionItemPanel>
+              <p>Crescent Moving</p>
+            </AccordionItemPanel>
+          </AccordionItem>
+          <AccordionItem>
+            <AccordionItemHeading>
+              <AccordionItemButton>
+                Do hotdogs have opinions?
+              </AccordionItemButton>
+            </AccordionItemHeading>
+            <AccordionItemPanel>
+              <p>A resounding yes, from the people.</p>
+            </AccordionItemPanel>
+          </AccordionItem>
+        </Accordion>
+      </>
+    );
+  }
 }
