@@ -30,6 +30,7 @@ class App extends Component {
     this.id = uuid.v4();
     this.submitHandler = this.submitHandler.bind(this);
   }
+
   formHandler = event => {
     this.setState({
       formLoad: true
@@ -61,6 +62,7 @@ class App extends Component {
   //   });
   // };
   render() {
+    console.log(this.state);
     return (
       <Router>
         <>
@@ -88,9 +90,6 @@ class App extends Component {
           <Route path="/example">
             <Example />
           </Route>
-          <Route path="/buttons">
-            <Buttons />
-          </Route>
           <Route path="/examplecard">
             <Brian />
           </Route>
@@ -109,6 +108,9 @@ class App extends Component {
           </Route>
           <Route path="/card">
             <Card newMember={this.state.newMember && this.state.newMember} />
+          </Route>
+          <Route path="/buttons">
+            <Buttons newInfo={this.state.newMember} newString={"TEST"} />
           </Route>
           <Redirect exact from="/" to="/home" />
         </Switch>

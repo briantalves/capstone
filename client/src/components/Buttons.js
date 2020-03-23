@@ -4,8 +4,8 @@ import Li from "../assets/icons/linkedin.png";
 import Gh from "../assets/icons/github.png";
 import Job from "../assets/icons/job.png";
 import Cv from "../assets/icons/cv.png";
-
-export default function Footer(props) {
+export default function Buttons(props) {
+  console.log(props);
   return (
     <>
       <div className="buttons__header">
@@ -15,7 +15,7 @@ export default function Footer(props) {
         <div className="buttons__both">
           <div className="buttons__one">
             <div className="buttons__pics">
-              <a href="https://www.linkedin.com/in/briantalves/">
+              <a href={props.newInfo.linkedin}>
                 <img className="buttons__icon" alt="lipic" src={Li} />
               </a>
             </div>

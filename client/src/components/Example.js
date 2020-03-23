@@ -5,7 +5,7 @@ import Gh from "../assets/icons/github.png";
 import Job from "../assets/icons/job.png";
 import Cv from "../assets/icons/cv.png";
 
-export default function Footer(props) {
+export default function Example(props) {
   return (
     <>
       <div className="example__header">

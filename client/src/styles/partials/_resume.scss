@@ -3,6 +3,13 @@
   background: rgba(76, 150, 215, 0.48);
   height: 48px;
 }
+.resume__all {
+  width: 100%;
+  height: 80%;
+  overflow-y: scroll;
+  margin-bottom: 25%;
+}
+
 .resume__headertitle {
   display: flex;
   align-items: center;
@@ -17,12 +24,16 @@
 }
 
 .resume__one {
-  color: red;
-  background-color: royalblue;
-  margin-right: 0px;
-  padding: 0px;
-  height: auto;
-  width: 50px;
+  // display: flex;
+  // align-items: center;
+  width: 100%;
+  // justify-content: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  color: #1761a0;
 }
 .resume__two {
   background-color: royalblue;

@@ -3,7 +3,7 @@ import React from "react";
 import Logo from "../assets/logo/QRcard.png";
 const QRCode = require("qrcode.react");
 
-export default function Example(props) {
+export default function Card(props) {
   console.log(props);
   return (
     <>
@@ -30,6 +30,7 @@ export default function Example(props) {
               <Link to="/buttons">
                 <QRCode
                   renderAs={"svg"}
+                  props={props}
                   height="95"
                   value="https://www.futbin.com/"
                 />
