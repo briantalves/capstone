@@ -48,8 +48,9 @@
 
 .card__logo {
   margin-left: 10px;
-  height: 80px;
-  width: 80px;
+  height: 160px;
+  width: 160px;
+  margin-right: 10px;
 }
 
 .card__tqr {
@@ -198,8 +199,8 @@
 }
 
 .card__logo {
-  height: 140px;
-  width: 140px;
+  height: 160px;
+  width: 160px;
 }
 
 .form__all {
@@ -210,6 +211,13 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.form__everything {
+  width: 100%;
+  height: 80%;
+  overflow-y: scroll;
+  margin-bottom: 25%;
 }
 
 .form__header {
@@ -320,6 +328,19 @@
 }
 
 .form__github {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form__jobpost {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -549,8 +570,8 @@
 }
 
 .card__logo {
-  height: 140px;
-  width: 140px;
+  height: 160px;
+  width: 160px;
 }
 
 .resume__header {
@@ -651,8 +672,9 @@
 
 .card__logo {
   margin-left: 10px;
-  height: 80px;
-  width: 80px;
+  height: 160px;
+  width: 160px;
+  margin-right: 10px;
 }
 
 .card__tqr {
@@ -756,7 +778,7 @@
       -ms-flex-direction: row;
           flex-direction: row;
   max-height: 132px;
-  width: 300px;
+  width: 275px;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
   -webkit-box-pack: justify;

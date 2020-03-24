@@ -39,14 +39,15 @@ class App extends Component {
   submitHandler = event => {
     event.preventDefault();
     return axios
-      .post("http://localhost:5000/api/contact/createnew/", {
+      .post("http://localhost:5500/api/contact/createnew/", {
         id: this.id,
         name: event.target.name.value,
         phone: event.target.phone.value,
         email: event.target.email.value,
         profession: event.target.profession.value,
         linkedin: event.target.linkedin.value,
-        github: event.target.github.value
+        github: event.target.github.value,
+        jobpost: event.target.jobpost.value
       })
       .then(res =>
         this.setState({
@@ -88,6 +89,9 @@ class App extends Component {
             <Resume />
           </Route>
           <Route path="/example">
+            <Example />
+          </Route>
+          <Route path="/linkedin">
             <Example />
           </Route>
           <Route path="/examplecard">

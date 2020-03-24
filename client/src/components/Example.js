@@ -31,7 +31,9 @@ export default function Example(props) {
           </div>
           <div className="example__two">
             <div className="example__pics">
-              <img className="example__icon" alt="jobpic" src={Job} />
+              <a href="https://www.bcjobs.ca/jobs/web-developer-1-burnaby-907141?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic">
+                <img className="example__icon" alt="jobpic" src={Job} />
+              </a>
             </div>
             <div className="example__pics">
               <Link to="/resume">

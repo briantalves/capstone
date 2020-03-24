@@ -127,8 +127,7 @@ export default function Resume() {
                   <li>CSS</li>
                   <li>JS</li>
                   <li>SASS</li>
-                  <li>REACT JS</li>
-                  <li>NPM</li>
+                  <li>REACT JS</li>1
                 </ul>
                 <u>
                   <b>Back End</b>
@@ -136,8 +135,6 @@ export default function Resume() {
                 <br />
                 <ul>
                   <li>NODE JS</li>
-                  <li>GIT</li>
-                  <li>GIT FLOW</li>
                 </ul>
               </p>
             </AccordionItemPanel>

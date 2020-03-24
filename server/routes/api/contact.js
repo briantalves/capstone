@@ -12,12 +12,17 @@ router.post("/createnew", (req, res) => {
     email: req.body.email,
     profession: req.body.profession,
     linkedin: req.body.linkedin,
-    github: req.body.github
+    github: req.body.github,
+    jobpost: req.body.jobpost
   };
 
   contact.push(newContact);
   helper.writeJSONFile(contactFile, contact);
   res.json(newContact);
+});
+
+router.get("/", (req, res) => {
+  return res.json(contact[contact.length - 1]);
 });
 //i thinks this is what's wrong
 // router.get("/:id", (req, res) => {
