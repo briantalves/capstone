@@ -14,7 +14,6 @@ import {
   Switch,
   Route,
   Redirect,
-  Link
 } from "react-router-dom";
 
 import "../src/styles/App.css";
@@ -26,7 +25,6 @@ class App extends Component {
       formLoad: true,
       newMember: undefined
     };
-    //does whatever stuff
     this.id = uuid.v4();
     this.submitHandler = this.submitHandler.bind(this);
   }
@@ -56,31 +54,11 @@ class App extends Component {
         })
       );
   };
-  //think this what's wrong
-  // getUser = async () => {
-  //   axios.get(`http://localhost:5000/api/contact/`, {}).then(res => {
-  //     retur
-  //   });
-  // };
+
   render() {
     console.log(this.state);
     return (
       <Router>
-        <>
-          {/* <Link to="/resume">
-            <button className="app__button"> Resume </button>
-          </Link>
-          {this.state.formLoad ? (
-            <Link className="app__button" to="/createnew">
-              <button className="app__button"> Createnew </button>
-            </Link> */}
-          {/* ) : (
-          // <button onClick={this.formHandler} className="app__button">
-            {" "}
-            Create New{" "}
-          </button> */}
-          {/* )} */}
-        </>
         <Switch>
           <Route path="/home">
             <Home />
@@ -107,8 +85,8 @@ class App extends Component {
             {this.state.formLoad ? (
               <Form handleSubmit={this.submitHandler} />
             ) : (
-              <Card newMember={this.state.newMember && this.state.newMember} />
-            )}
+                <Card newMember={this.state.newMember && this.state.newMember} />
+              )}
           </Route>
           <Route path="/card">
             <Card newMember={this.state.newMember && this.state.newMember} />

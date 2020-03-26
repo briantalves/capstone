@@ -1,5 +1,4 @@
 import React from "react";
-import axios from "axios";
 export default class Createnew extends React.Component {
   render() {
     console.log(this.props);
@@ -27,8 +26,8 @@ export default class Createnew extends React.Component {
                   id="phone"
                   name="phone"
                   placeholder="123-456-7890"
-                  // pattern="[0-9]{3}-[0-9]{3}-[0-9]{5}"
-                  // required
+                  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                  required
                 />
                 <p className="form__number">Format: XXX-XXX-XXXX</p>
               </div>
@@ -57,16 +56,20 @@ export default class Createnew extends React.Component {
                   type="url"
                   id="linkedIn"
                   name="linkedin"
+                  placeholder="Insert LinkedIn"
                 />
+                <p className="form__number">https://www.linkedin.com/in/(USERNAME)</p>
               </div>
               <div className="form__github">
-                <p className="form__titles">Git Hub URL</p>
+                <p className="form__titles">GitHub URL</p>
                 <input
                   className="form__input"
                   type="url"
                   id="gitHub"
                   name="github"
+                  placeholder="Insert GitHub"
                 />
+                <p className="form__number">https://www.github.com/(USERNAME)</p>
               </div>
               <div className="form__jobpost">
                 <p className="form__titles">Job Post URL</p>
@@ -75,7 +78,9 @@ export default class Createnew extends React.Component {
                   type="url"
                   id="jobpost"
                   name="jobpost"
+                  placeholder="Insert Job Post"
                 />
+                <p className="form__number">https://www.example.com</p>
               </div>
             </div>
             <div className="form__generate">

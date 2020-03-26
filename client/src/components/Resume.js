@@ -13,6 +13,7 @@ export default function Resume() {
     <>
       <div className="resume__all">
         <div className="resume__header">
+
           <div className="resume__headertitle">Resume</div>
         </div>
         <Accordion>
@@ -96,15 +97,6 @@ export default function Resume() {
                     Managed up to 24 local staff and five drivers across North
                     America
                   </li>
-                  <li> Promoted three times to reach OM</li>
-                  <li>
-                    Ensured quality and communication among the different
-                    departments
-                  </li>
-                  <li>
-                    Managed up to 24 local staff and five drivers across North
-                    America
-                  </li>
                 </ul>
               </p>
             </AccordionItemPanel>
@@ -127,7 +119,7 @@ export default function Resume() {
                   <li>CSS</li>
                   <li>JS</li>
                   <li>SASS</li>
-                  <li>REACT JS</li>1
+                  <li>REACT JS</li>
                 </ul>
                 <u>
                   <b>Back End</b>
@@ -145,6 +137,4 @@ export default function Resume() {
   );
 }
 
-{
-  /* <a href={props.newMember.githuburl}>GitHub</a>; */
-}
+

@@ -5,7 +5,6 @@
   margin-left: 10px;
   margin-right: 10px;
   align-items: center;
-  //   flex-direction: column;
 }
 .example__header {
   display: flex;
@@ -42,7 +41,6 @@
 .example__icon {
   width: 132px;
   height: 116px;
-  //   flex-basis: 50%;
 }
 .example__two {
   display: flex;
@@ -67,6 +65,7 @@
   font-size: 20px;
   line-height: 25px;
   color: #1761a0;
+  
 }
 .example__title1 {
   flex-basis: 50%;

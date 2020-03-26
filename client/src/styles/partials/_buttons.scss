@@ -5,7 +5,6 @@
   margin-left: 10px;
   margin-right: 10px;
   align-items: center;
-  //   flex-direction: column;
 }
 .buttons__header {
   display: flex;
@@ -42,7 +41,6 @@
 .buttons__icon {
   width: 132px;
   height: 116px;
-  //   flex-basis: 50%;
 }
 .buttons__two {
   display: flex;
@@ -50,12 +48,14 @@
   flex-basis: 100%;
   max-height: 132px;
 }
-.buttons__both {
+.buttons__both:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 400px;
+  background-color: lightblue;
 }
+
 .buttons__titles {
   text-align: center;
   display: flex;
@@ -74,3 +74,4 @@
 .buttons__title2 {
   flex-basis: 50%;
 }
+

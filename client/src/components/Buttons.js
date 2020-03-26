@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Li from "../assets/icons/linkedin.png";
 import Gh from "../assets/icons/github.png";
 import Job from "../assets/icons/job.png";
@@ -24,7 +24,6 @@ export default class Buttons extends Component {
   }
 
   handleClick = (event, url) => {
-    // do something meaningful, Promises, if/else, whatever, and then
     window.location.assign(url ? url : "");
   };
 

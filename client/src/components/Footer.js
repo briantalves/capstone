@@ -1,9 +1,8 @@
 import React from "react";
-import Add from "../assets/icons/add.png";
-import Qr from "../assets/icons/qr.png";
-import Home from "../components/Home";
-import Example from "../assets/icons/example.png";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import Add from "../assets/icons/user.png";
+import Home from "../assets/icons/home.png";
+import Example from "../assets/icons/gallery.png";
+import { Link } from "react-router-dom";
 
 export default function Footer(props) {
   return (
@@ -17,7 +16,7 @@ export default function Footer(props) {
           </div>
           <div className="footer__home">
             <Link to="/home">
-              <img className="footer__icon" alt="qrpic" src={Qr} />
+              <img className="footer__icon" alt="homepic" src={Home} />
             </Link>
           </div>
           <div className="footer__example">

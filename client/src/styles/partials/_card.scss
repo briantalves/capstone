@@ -1,18 +1,26 @@
 .card__all {
   display: flex;
+height: 100%;
+     
+    background-color: lightgrey;
 }
 .card__card {
   display: flex;
   flex-direction: column;
-  border: 2px solid blue;
+  // border: 2px solid blue;
   box-sizing: border-box;
-  width: 400px;
-  margin-top: 50%;
+  width: 100vw;
+  background-color: white;
+  margin-top: 40%;
+  margin-bottom: 135px;
+   margin-left: 10px;
+    margin-right: 10px;
 }
 .card__header {
   display: flex;
   background: rgba(76, 150, 215, 0.48);
   height: 48px;
+   
 }
 .card__headertitle {
   display: flex;
@@ -26,11 +34,10 @@
   line-height: 25px;
   color: #1761a0;
 }
-.card__logo {
-  margin-left: 10px;
-  height: 160px;
+.card__logoo {
+  display: flex;
   width: 160px;
-  margin-right: 10px;
+  height:100px;
 }
 
 .card__tqr {
@@ -38,9 +45,18 @@
   justify-content: space-between;
 }
 
+
 .card__text {
   display: flex;
   flex-direction: column;
   justify-content: center;
+    font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  color: #1761a0;
   margin-left: 10px;
+  padding-top: 20%;
+  margin-bottom: 10px;
 }

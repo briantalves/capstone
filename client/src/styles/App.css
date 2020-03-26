@@ -2,6 +2,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 100%;
+  background-color: lightgrey;
 }
 
 .card__card {
@@ -12,11 +14,14 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border: 2px solid blue;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  width: 400px;
-  margin-top: 50%;
+  width: 100vw;
+  background-color: white;
+  margin-top: 40%;
+  margin-bottom: 135px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .card__header {
@@ -46,11 +51,12 @@
   color: #1761a0;
 }
 
-.card__logo {
-  margin-left: 10px;
-  height: 160px;
+.card__logoo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 160px;
-  margin-right: 10px;
+  height: 100px;
 }
 
 .card__tqr {
@@ -73,7 +79,15 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  color: #1761a0;
   margin-left: 10px;
+  padding-top: 20%;
+  margin-bottom: 10px;
 }
 
 /* Coolors Exported Palette - coolors.co/88ccf1-276fbf-031a6b-033860-087ca7 */
@@ -129,11 +143,9 @@
 }
 
 .footer__icon {
-  width: 65px;
-  height: 65px;
+  width: 35px;
+  height: 35px;
   color: blue;
-  background-color: black;
-  border-radius: 50%;
 }
 
 .footer__example {
@@ -211,6 +223,8 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .form__everything {
@@ -253,13 +267,13 @@
       -ms-flex-pack: center;
           justify-content: center;
   width: 80%;
-  border: 1px solid #1761a0;
+  padding: 8px;
 }
 
 .form__input {
   height: 39px;
   width: 80%;
-  border: 1px solid #1761a0;
+  padding: 8px;
 }
 
 .form__name {
@@ -377,6 +391,12 @@
   font-size: 15px;
   line-height: 25px;
   margin: 8px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  color: #1761a0;
 }
 
 .form__number {
@@ -626,6 +646,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 100%;
+  background-color: lightgrey;
 }
 
 .card__card {
@@ -636,11 +658,14 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border: 2px solid blue;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  width: 400px;
-  margin-top: 50%;
+  width: 100vw;
+  background-color: white;
+  margin-top: 40%;
+  margin-bottom: 135px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .card__header {
@@ -670,11 +695,12 @@
   color: #1761a0;
 }
 
-.card__logo {
-  margin-left: 10px;
-  height: 160px;
+.card__logoo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 160px;
-  margin-right: 10px;
+  height: 100px;
 }
 
 .card__tqr {
@@ -697,7 +723,15 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  color: #1761a0;
   margin-left: 10px;
+  padding-top: 20%;
+  margin-bottom: 10px;
 }
 
 .brian__header {
@@ -820,7 +854,7 @@
   max-height: 132px;
 }
 
-.buttons__both {
+.buttons__both:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -832,6 +866,7 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 400px;
+  background-color: lightblue;
 }
 
 .buttons__titles {

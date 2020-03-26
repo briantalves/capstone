@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import React from "react";
+import { Link } from "react-router-dom";
 import Li from "../assets/icons/linkedin.png";
 import Gh from "../assets/icons/github.png";
 import Job from "../assets/icons/job.png";
