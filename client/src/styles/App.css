@@ -90,6 +90,14 @@
   margin-bottom: 10px;
 }
 
+@media only screen and (min-width: 1440px) {
+  .card__card {
+    margin-left: 180px;
+    margin-right: 180px;
+    background-color: lightgreen;
+  }
+}
+
 /* Coolors Exported Palette - coolors.co/88ccf1-276fbf-031a6b-033860-087ca7 */
 /* HSL */
 /* RGB */
@@ -408,6 +416,13 @@
   margin: 5px;
 }
 
+@media only screen and (min-width: 1440px) {
+  .form__all {
+    margin-left: 180px;
+    margin-right: 180px;
+  }
+}
+
 .example__all {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -539,6 +554,13 @@
 .example__title2 {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
+}
+
+@media only screen and (min-width: 1440px) {
+  .exmple__all {
+    margin-left: 180px;
+    margin-right: 180px;
+  }
 }
 
 .home__all {
@@ -734,6 +756,14 @@
   margin-bottom: 10px;
 }
 
+@media only screen and (min-width: 1440px) {
+  .card__card {
+    margin-left: 180px;
+    margin-right: 180px;
+    background-color: lightgreen;
+  }
+}
+
 .brian__header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -893,6 +923,13 @@
 .buttons__title2 {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
+}
+
+@media only screen and (min-width: 1440px) {
+  .buttons__all {
+    margin-left: 180px;
+    margin-right: 180px;
+  }
 }
 
 html,

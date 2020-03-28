@@ -73,3 +73,11 @@
 .example__title2 {
   flex-basis: 50%;
 }
+
+
+@include large {
+.exmple__all {
+  margin-left: 180px;
+  margin-right: 180px;
+}
+}

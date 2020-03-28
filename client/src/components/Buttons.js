@@ -6,11 +6,17 @@ import Job from "../assets/icons/job.png";
 import Cv from "../assets/icons/cv.png";
 import Axios from "axios";
 export default class Buttons extends Component {
-  state = {
-    linkedin: "",
-    github: "",
-    jobpost: ""
-  };
+  constructor(props) {
+    super(props);
+    console.log(props);
+    this.state = {
+      linkedin: "",
+      github: "",
+      jobpost: "",
+      name: ""
+    };
+  }
+
 
   componentDidMount() {
     Axios.get("http://localhost:5500/api/contact/").then(res => {
@@ -18,7 +24,8 @@ export default class Buttons extends Component {
       this.setState({
         linkedin: res.data.linkedin,
         github: res.data.github,
-        jobpost: res.data.jobpost
+        jobpost: res.data.jobpost,
+        name: res.data.name
       });
     });
   }
@@ -28,10 +35,11 @@ export default class Buttons extends Component {
   };
 
   render() {
+    console.log(this.props)
     return (
       <>
         <div className="buttons__header">
-          <div className="buttons__headertitle">Personalization</div>
+          <div className="buttons__headertitle">{this.state.name ? this.state.name : ""}</div>
         </div>
         <div className="buttons__all">
           <div className="buttons__both">

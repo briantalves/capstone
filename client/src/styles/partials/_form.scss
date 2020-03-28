@@ -108,3 +108,11 @@
   line-height: 10px;
   margin: 5px;
 }
+
+
+@include large {
+.form__all {
+  margin-left: 180px;
+  margin-right: 180px;
+}
+}

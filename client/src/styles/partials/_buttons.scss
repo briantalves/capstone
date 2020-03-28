@@ -75,3 +75,9 @@
   flex-basis: 50%;
 }
 
+@include large {
+.buttons__all {
+  margin-left: 180px;
+  margin-right: 180px;
+}
+}
